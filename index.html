@@ -3,79 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Clothing | Loja de Roupas</title>
+    <title>Kaua Clothing | Início</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="container header-flex">
-            <h1>Kolene Clothing</h1>
+            <h1>Kaua Clothing</h1>
             <nav>
                 <ul>
-                    <li><a href="#quem-somos">Quem Somos</a></li>
-                    <li><a href="#colecoes">Coleções</a></li>
-                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="index.html" class="active">Início</a></li>
+                    <li><a href="sobre.html">Quem Somos</a></li>
+                    <li><a href="colecoes.html">Coleções</a></li>
+                    <li><a href="contato.html">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <section id="quem-somos" class="container section-padding">
-            <h2>Quem Somos</h2>
-            <p>A Kolene Clothing nasceu com o propósito de redefinir a moda casual, combinando estilo, conforto e atitude. Nossas peças são desenvolvidas para pessoas que buscam expressar sua identidade de forma autêntica e original, sem abrir mão da qualidade em cada costura.</p>
-        </section>
-
-        <section id="colecoes" class="container section-padding">
-            <h2>Nossas Coleções</h2>
-            <div class="grid-produtos">
-                <article class="produto-card">
-                    <img src="https://via.placeholder.com/300x400?text=Camiseta+B%C3%A1sica" alt="Camiseta Básica Preta">
-                    <h3>Camiseta Básica Preta</h3>
-                    <p class="preco">R$ 59,90</p>
-                    <button>Comprar</button>
-                </article>
-                <article class="produto-card">
-                    <img src="https://via.placeholder.com/300x400?text=Jaqueta+Jeans" alt="Jaqueta Jeans Clássica">
-                    <h3>Jaqueta Jeans</h3>
-                    <p class="preco">R$ 199,90</p>
-                    <button>Comprar</button>
-                </article>
-                <article class="produto-card">
-                    <img src="https://via.placeholder.com/300x400?text=Cal%C3%A7a+Sarja" alt="Calça Sarja Areia">
-                    <h3>Calça Sarja</h3>
-                    <p class="preco">R$ 129,90</p>
-                    <button>Comprar</button>
-                </article>
+        <section class="hero-section">
+            <div class="container hero-content">
+                <h2>Seu estilo, sua identidade.</h2>
+                <p>Descubra as novas tendências da moda casual com a Kaua Clothing. Peças exclusivas para quem tem atitude.</p>
+                <a href="colecoes.html" class="btn-primary">Ver Coleções</a>
             </div>
         </section>
 
-        <section id="contato" class="container section-padding form-section">
-            <h2>Fale Conosco</h2>
-            <form action="#" method="POST">
-                <div class="form-group">
-                    <label for="nome">Nome Completo:</label>
-                    <input type="text" id="nome" name="nome" required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="mensagem">Sua Mensagem:</label>
-                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
-                </div>
-                
-                <button type="submit" class="btn-submit">Enviar Mensagem</button>
-            </form>
+        <section class="container section-padding">
+            <h2 class="text-center">Destaques da Semana</h2>
+            <div class="grid-produtos">
+                <article class="produto-card">
+                    <img src="images/Moletom-urb.jpg" alt="Moletom Urbano">
+                    <h3>Moletom Urbano</h3>
+                    <p class="preco">R$ 159,90</p>
+                    <a href="colecoes.html" class="btn-secondary">Comprar</a>
+                </article>
+                <article class="produto-card">
+                    <img src="images/oversized.png" alt="Camiseta Oversized">
+                    <h3>Camiseta Oversized</h3>
+                    <p class="preco">R$ 79,90</p>
+                    <a href="colecoes.html" class="btn-secondary">Comprar</a>
+                </article>
+            </div>
         </section>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 Kolene Clothing. Todos os direitos reservados.</p>
+            <p>&copy; 2026 Kaua Clothing. Todos os direitos reservados.</p>
         </div>
     </footer>
 </body>
