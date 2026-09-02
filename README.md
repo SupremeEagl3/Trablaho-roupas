@@ -14,3 +14,4 @@ O projeto foi desenvolvido em múltiplas abas (páginas interligadas) contendo:
 - `colecoes.html`: Catálogo completo de produtos.
 - `contato.html`: Formulário de contato e informações adicionais (utilizando o `<aside>`).
 - `style.css`: Arquivo único de estilos (CSS puro), centralizando o layout utilizando Flexbox e classes.
+- `sucesso.html`: Página de sucesso após entrar em contato.
