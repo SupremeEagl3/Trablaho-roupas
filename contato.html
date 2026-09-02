@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sua descrição sobre a loja ou a página aqui.">
     <title>Kaua Clothing | Contato</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -25,7 +26,7 @@
         <div class="contato-wrapper">
             <section class="form-section">
                 <h2>Envie sua Mensagem</h2>
-                <form action="#" method="POST">
+                <form action="sucesso.html" method="GET">
                     <div class="form-group">
                         <label for="nome">Nome Completo:</label>
                         <input type="text" id="nome" name="nome" required>
@@ -47,7 +48,17 @@
                         <label for="mensagem">Sua Mensagem:</label>
                         <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
                     </div>
-                    <button type="submit" class="btn-primary">Enviar Mensagem</button>
+                    
+                    <div class="form-group">
+                         <label for="nivel">Como você avalia nosso site até agora? (0 a 10)</label>
+                         <input type="range" id="nivel" name="nivel" min="0" max="10">
+                    </div>
+
+
+                    <div style="display: flex; gap: 15px;">
+                        <button type="submit" class="btn-primary" style="flex: 1;">Enviar Mensagem</button>
+                         <input type="reset" value="Limpar" class="btn-secondary" style="flex: 1; text-align: center;">
+                    </div>
                 </form>
             </section>
             
