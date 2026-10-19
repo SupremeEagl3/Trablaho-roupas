@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Carrinho de compras da Kaua Clothing.">
+    <title>Kaua Clothing | Carrinho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-flex">
+            <h1>Kaua Clothing</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Quem Somos</a></li>
+                    <li><a href="colecoes.html">Coleções</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="carrinho.html" class="active" style="color: #f59e0b;">Carrinho <span class="cart-counter">0</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container section-padding">
+        <h2 class="text-center">Seu Carrinho</h2>
+        
+        <div class="carrinho-container">
+            <div id="itens-carrinho"></div>
+
+            <div class="carrinho-resumo">
+                <h3>Total: R$ <span id="total-carrinho">0.00</span></h3>
+                <div class="form-botoes" style="margin-top: 20px;">
+                    <button class="btn-primary" onclick="alert('Funcionalidade de pagamento em breve!')">Finalizar Compra</button>
+                    <button class="btn-secondary" onclick="limparCarrinho()">Esvaziar Carrinho</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Kaua Clothing. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
